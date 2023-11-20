@@ -10,6 +10,8 @@ import {fixureType} from '../../app/interface/teams-result';
 })
 export class FootballserviceService {
 
+
+  
   baseUrl:String='';
 
   constructor(private apiUrl:ApiUrlService,private htttp:HttpClient) {
